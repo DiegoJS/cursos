@@ -1,18 +1,6 @@
-"packages": [
-        {
-            "name": "diegojs/cursos",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:diegojs/cursos.git",
-                "reference": "master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "cursos\\": "src"
-                }
-            },
-            "time": "2017-07-31 12:00:00"
-      	}
-]
+{
+    "require": {
+                "monolog/monolog": "*"
+    },
+    "minimum-stability": "dev"
+}
