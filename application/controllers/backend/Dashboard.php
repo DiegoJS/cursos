@@ -8,7 +8,10 @@ class Dashboard extends CI_Controller {
 	}
 
 	public function index(){
+		$this->load->view('template/login');
+	}
 
+	public function inicio() {
 		$vista_interna = array(
 		);
 		$vista_externa = array(			
@@ -16,11 +19,6 @@ class Dashboard extends CI_Controller {
 			'contenido_main' => $this->load->view('backend/dashboard/dashboard', $vista_interna, true)
 		);
 		$this->load->view('template/backend', $vista_externa);
-	}
-
-	public function login()
-	{
-		$this->load->view('template/login');
 	}
 
 	public function salir()
