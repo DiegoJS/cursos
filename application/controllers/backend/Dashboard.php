@@ -23,6 +23,6 @@ class Dashboard extends CI_Controller {
 
 	public function salir()
 	{
-		redirect(base_url('login'));
+		redirect(base_url(''));
 	}
 }
