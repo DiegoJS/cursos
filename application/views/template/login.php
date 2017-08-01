@@ -20,7 +20,7 @@
 								<img src="<?php echo base_url('assets/img/brand.png') ?>">
 							</div>
 							<h5 align="center">Bienvenido</h5>
-							<form class="form-material m-b-1" method="post" action="<?php echo base_url('dashboard/inicio') ?>">
+							<form class="form-material m-b-1" method="post" action="<?php echo base_url('inicio') ?>">
 								<div class="form-group">
 									<input type="text" class="form-control" id="exampleInputEmail" placeholder="Usuario" required="">
 								</div>
