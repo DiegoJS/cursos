@@ -19,6 +19,9 @@
 		<script type="text/javascript" src="<?php echo base_url('assets/backend') ?>/sparkline/jquery.sparkline.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url('assets/backend') ?>/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url('assets/backend') ?>/jvectormap/jquery-jvectormap-world-mill.js"></script>
+		<script type="text/javascript" src="<?php echo base_url('assets/backend/DataTables/js/jquery.dataTables.min.js') ?>"></script>
+		<script type="text/javascript" src="<?php echo base_url('assets/backend/DataTables/js/dataTables.bootstrap4.min.js') ?>"></script>
+		<script type="text/javascript" src="<?php echo base_url('assets/js/tables-datatable.js') ?>"></script>
 
 		<script type="text/javascript" src="<?php echo base_url('assets') ?>/js/app.js"></script>
 		<script type="text/javascript" src="<?php echo base_url('assets') ?>/js/demo.js"></script>

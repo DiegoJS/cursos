@@ -23,8 +23,8 @@
 								<span class="s-text">Actas de recuperación</span>
 							</a>
 							<ul>
-								<li><a href="#">Nuevo</a></li>
-								<li><a href="#">Listado</a></li>
+								<li><a href="<?php echo base_url('backend/actas/add') ?>">Nuevo</a></li>
+								<li><a href="<?php echo base_url('backend/actas') ?>">Listado</a></li>
 							</ul>
 						</li>
 						<li class="with-sub">
